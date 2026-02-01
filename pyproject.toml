@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kolmogorov"
+version = "1.0"
+description = "KNN image classification using compression-based distances"
+authors = [
+    {name = "Ammar", email = "sleeping4cat@gmail.com"}
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scikit-learn",
+    "Pillow",
+    "matplotlib",
+    "ffmpeg-python"
+]
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.urls]
+"Homepage" = "https://github.com/sleepingcat4/Kolmogorov-Classification"
